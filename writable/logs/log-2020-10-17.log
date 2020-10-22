@@ -1,0 +1,85 @@
+CRITICAL - 2020-10-17 07:42:55 --> syntax error, unexpected '}', expecting ';' or ','
+#0 C:\xampp\htdocs\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('pages')
+#1 C:\xampp\htdocs\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('pages')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-17 08:16:28 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+#0 C:\xampp\htdocs\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('pages')
+#1 C:\xampp\htdocs\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('pages')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-17 08:19:23 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+#0 C:\xampp\htdocs\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('pages')
+#1 C:\xampp\htdocs\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('pages')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-17 08:26:17 --> syntax error, unexpected 'function' (T_FUNCTION), expecting ';' or ','
+#0 C:\xampp\htdocs\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('pages')
+#1 C:\xampp\htdocs\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('pages')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-17 08:27:48 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('pages')
+#1 C:\xampp\htdocs\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('pages')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-17 08:28:16 --> Invalid file: templates/header.php
+#0 C:\xampp\htdocs\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/heade...')
+#1 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 C:\xampp\htdocs\app\Controllers\Pages.php(11): view('templates/heade...')
+#3 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->showme()
+#4 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-17 08:34:58 --> Invalid file: templates/header.php
+#0 C:\xampp\htdocs\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/heade...')
+#1 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 C:\xampp\htdocs\app\Controllers\Pages.php(11): view('templates/heade...')
+#3 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->showme('more')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-17 08:36:52 --> Invalid file: templates/home.php
+#0 C:\xampp\htdocs\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/home....')
+#1 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('templates/home', Array, true)
+#2 C:\xampp\htdocs\app\Controllers\Pages.php(12): view('templates/home')
+#3 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->showme()
+#4 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-17 08:38:58 --> Invalid file: templates/home.php
+#0 C:\xampp\htdocs\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/home....')
+#1 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('templates/home', Array, true)
+#2 C:\xampp\htdocs\app\Controllers\Pages.php(12): view('templates/home')
+#3 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->showme()
+#4 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-17 11:34:40 --> Undefined variable: page
+#0 C:\xampp\htdocs\app\Controllers\Pages.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-17 11:35:16 --> Use of undefined constant home - assumed 'home' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\app\Controllers\Pages.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

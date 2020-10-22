@@ -1,0 +1,624 @@
+CRITICAL - 2020-10-18 00:44:52 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#1 C:\xampp\htdocs\app\Controllers\Pages.php(18): view('templates/heade...')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->showme('about')
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-18 00:46:02 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#1 C:\xampp\htdocs\app\Controllers\Pages.php(18): view('templates/heade...')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->showme('about')
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-18 00:46:04 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#1 C:\xampp\htdocs\app\Controllers\Pages.php(18): view('templates/heade...')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->showme('about')
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-18 00:46:31 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#1 C:\xampp\htdocs\app\Controllers\Pages.php(18): view('templates/heade...')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->showme('about')
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-18 00:46:44 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#1 C:\xampp\htdocs\app\Controllers\Pages.php(18): view('templates/heade...')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->showme('about')
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-18 00:47:21 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#1 C:\xampp\htdocs\app\Controllers\Pages.php(18): view('templates/heade...')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->showme('about')
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-18 05:23:56 --> Class 'App\Models\Model' not found
+#0 C:\xampp\htdocs\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Data...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Data...')
+#4 C:\xampp\htdocs\app\Controllers\Pages.php(7): spl_autoload_call('App\\Models\\Data...')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-18 05:24:58 --> Class 'CodeIgniter\Models' not found
+#0 C:\xampp\htdocs\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Data...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Data...')
+#4 C:\xampp\htdocs\app\Controllers\Pages.php(7): spl_autoload_call('App\\Models\\Data...')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-18 05:25:52 --> Class 'CodeIgniter\Models' not found
+#0 C:\xampp\htdocs\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Data...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Data...')
+#4 C:\xampp\htdocs\app\Controllers\Pages.php(7): spl_autoload_call('App\\Models\\Data...')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-18 05:25:57 --> Class 'App\Models\Model' not found
+#0 C:\xampp\htdocs\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Data...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Data...')
+#4 C:\xampp\htdocs\app\Controllers\Pages.php(7): spl_autoload_call('App\\Models\\Data...')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-18 05:27:41 --> Class 'CodeIgniter\Models' not found
+#0 C:\xampp\htdocs\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Data...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Data...')
+#4 C:\xampp\htdocs\app\Controllers\Pages.php(7): spl_autoload_call('App\\Models\\Data...')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-18 05:27:54 --> Class 'App\Models\Models' not found
+#0 C:\xampp\htdocs\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Data...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Data...')
+#4 C:\xampp\htdocs\app\Controllers\Pages.php(7): spl_autoload_call('App\\Models\\Data...')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-18 05:28:23 --> Class 'App\Models' not found
+#0 C:\xampp\htdocs\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Data...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Data...')
+#4 C:\xampp\htdocs\app\Controllers\Pages.php(7): spl_autoload_call('App\\Models\\Data...')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-18 05:30:29 --> Class 'Codeigniter\Models' not found
+#0 C:\xampp\htdocs\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Data...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Data...')
+#4 C:\xampp\htdocs\app\Controllers\Pages.php(7): spl_autoload_call('App\\Models\\Data...')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-18 05:30:53 --> Class 'CodeIgniter\Models' not found
+#0 C:\xampp\htdocs\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Data...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Data...')
+#4 C:\xampp\htdocs\app\Controllers\Pages.php(7): spl_autoload_call('App\\Models\\Data...')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-18 05:31:34 --> Class 'App\Models\Model' not found
+#0 C:\xampp\htdocs\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Data...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Data...')
+#4 C:\xampp\htdocs\app\Controllers\Pages.php(7): spl_autoload_call('App\\Models\\Data...')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-18 05:32:45 --> Undefined variable: news
+#0 C:\xampp\htdocs\app\Views\pages\home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Pages.php(21): view('pages/home')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->showme('home')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-18 05:33:25 --> Class 'App\Models\Model' not found
+#0 C:\xampp\htdocs\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Data...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Data...')
+#4 C:\xampp\htdocs\app\Controllers\Pages.php(7): spl_autoload_call('App\\Models\\Data...')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-18 05:36:45 --> Class 'App\Models\Model' not found
+#0 C:\xampp\htdocs\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Data...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Data...')
+#4 C:\xampp\htdocs\app\Controllers\Pages.php(7): spl_autoload_call('App\\Models\\Data...')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-18 05:37:26 --> Object of class App\Models\DataModel could not be converted to string
+#0 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#1 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-18 05:38:08 --> Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\app\Models\DataModel.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\app\Controllers\Pages.php(8): App\Models\DataModel->getData()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-18 05:54:57 --> Table 'u224459111_bb.registration' doesn't exist
+#0 C:\xampp\htdocs\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\app\Models\DataModel.php(10): CodeIgniter\Model->findAll()
+#6 C:\xampp\htdocs\app\Controllers\Pages.php(8): App\Models\DataModel->getData()
+#7 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#8 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#9 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-10-18 07:32:46 --> Class 'App\Models\DataModel' not found
+#0 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#1 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-18 07:33:56 --> Class 'App\Controllers\User_RModel' not found
+#0 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#1 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-18 07:34:20 --> Call to undefined method App\Models\User_RModel::getData
+#0 C:\xampp\htdocs\app\Controllers\Pages.php(8): CodeIgniter\Model->__call('getData', Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-18 07:35:32 --> Undefined variable: data
+#0 C:\xampp\htdocs\app\Controllers\Pages.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-18 07:37:43 --> Class 'App\Models\User_RModel' not found
+#0 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#1 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-18 07:38:14 --> Class 'App\Models\DataModel' not found
+#0 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#1 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-18 07:38:36 --> Class 'App\Controllers\DataModel' not found
+#0 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#1 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-18 08:00:13 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/login', Array, true)
+#2 C:\xampp\htdocs\app\Controllers\Pages.php(21): view('pages/login')
+#3 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->showme('login')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-18 08:01:31 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/login', Array, true)
+#2 C:\xampp\htdocs\app\Controllers\Pages.php(21): view('pages/login')
+#3 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->showme('login')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-18 08:01:32 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/login', Array, true)
+#2 C:\xampp\htdocs\app\Controllers\Pages.php(21): view('pages/login')
+#3 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->showme('login')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-18 08:02:36 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/login', Array, true)
+#2 C:\xampp\htdocs\app\Controllers\Pages.php(21): view('pages/login')
+#3 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->showme('login')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-18 08:06:25 --> syntax error, unexpected 'class' (T_CLASS), expecting '{'
+#0 C:\xampp\htdocs\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-18 08:09:34 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/login', Array, true)
+#2 C:\xampp\htdocs\app\Controllers\Pages.php(21): view('pages/login')
+#3 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->showme('login')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-18 08:24:36 --> noauth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\system\Filters\Filters.php(324): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('noauth')
+#1 C:\xampp\htdocs\system\CodeIgniter.php(373): CodeIgniter\Filters\Filters->enableFilter('noauth', 'before')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-18 08:24:55 --> Invalid file: login.php
+#0 C:\xampp\htdocs\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\app\Controllers\User_R.php(12): view('login', Array)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\User_R->index()
+#4 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_R))
+#5 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-18 12:14:38 --> syntax error, unexpected ','
+#0 C:\xampp\htdocs\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2020-10-18 12:16:53 --> syntax error, unexpected ','
+#0 C:\xampp\htdocs\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2020-10-18 12:16:54 --> syntax error, unexpected ','
+#0 C:\xampp\htdocs\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2020-10-18 12:16:57 --> syntax error, unexpected ','
+#0 C:\xampp\htdocs\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2020-10-18 12:17:01 --> syntax error, unexpected ','
+#0 C:\xampp\htdocs\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2020-10-18 12:17:49 --> syntax error, unexpected ','
+#0 C:\xampp\htdocs\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2020-10-18 12:18:15 --> syntax error, unexpected ''/register'' (T_CONSTANT_ENCAPSED_STRING)
+#0 C:\xampp\htdocs\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2020-10-18 12:35:09 --> Table 'u224459111_bb.users' doesn't exist
+#0 C:\xampp\htdocs\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT 1\nFROM `...')
+#1 C:\xampp\htdocs\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\system\Validation\Rules.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\system\Validation\Validation.php(325): CodeIgniter\Validation\Rules->is_unique('chinmay.wps@gma...', 'email', Array, NULL)
+#6 C:\xampp\htdocs\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('email', 'email', 'chinmay.wps@gma...', Array, Array)
+#7 C:\xampp\htdocs\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\app\Controllers\User_R.php(36): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\User_R->register()
+#10 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_R))
+#11 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2020-10-18 12:36:44 --> Class 'App\Controllers\UserModel' not found
+#0 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\User_R->register()
+#1 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_R))
+#2 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-18 12:37:26 --> Allowed fields must be specified for model: App\Models\User_RModel
+#0 C:\xampp\htdocs\system\Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 C:\xampp\htdocs\system\Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 C:\xampp\htdocs\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\app\Controllers\User_R.php(53): CodeIgniter\Model->save(Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\User_R->register()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_R))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-18 12:53:19 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `re...')
+#1 C:\xampp\htdocs\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 C:\xampp\htdocs\app\Controllers\User_R.php(53): CodeIgniter\Model->save(Array)
+#7 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\User_R->register()
+#8 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_R))
+#9 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-10-18 12:57:39 --> Column 'gender' cannot be null
+#0 C:\xampp\htdocs\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `re...')
+#1 C:\xampp\htdocs\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 C:\xampp\htdocs\app\Controllers\User_R.php(53): CodeIgniter\Model->save(Array)
+#7 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\User_R->register()
+#8 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_R))
+#9 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-10-18 12:58:46 --> Column 'gender' cannot be null
+#0 C:\xampp\htdocs\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `re...')
+#1 C:\xampp\htdocs\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 C:\xampp\htdocs\app\Controllers\User_R.php(53): CodeIgniter\Model->save(Array)
+#7 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\User_R->register()
+#8 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_R))
+#9 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-10-18 13:15:38 --> Call to undefined method App\Models\User_RModel::getData
+#0 C:\xampp\htdocs\app\Controllers\Pages.php(8): CodeIgniter\Model->__call('getData', Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-18 13:16:56 --> Call to undefined method App\Models\User_RModel::getData
+#0 C:\xampp\htdocs\app\Controllers\Pages.php(8): CodeIgniter\Model->__call('getData', Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-18 13:17:24 --> Call to undefined method App\Models\User_RModel::getData
+#0 C:\xampp\htdocs\app\Controllers\Pages.php(8): CodeIgniter\Model->__call('getData', Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-18 13:24:27 --> Call to undefined method App\Models\User_RModel::getData
+#0 C:\xampp\htdocs\app\Controllers\Pages.php(8): CodeIgniter\Model->__call('getData', Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-18 13:24:34 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `re...')
+#1 C:\xampp\htdocs\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 C:\xampp\htdocs\app\Controllers\User_R.php(54): CodeIgniter\Model->save(Array)
+#7 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\User_R->register()
+#8 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_R))
+#9 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-10-18 13:25:03 --> Call to undefined method App\Models\User_RModel::getData
+#0 C:\xampp\htdocs\app\Controllers\Pages.php(8): CodeIgniter\Model->__call('getData', Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-18 13:31:20 --> Call to undefined method App\Models\User_RModel::getData
+#0 C:\xampp\htdocs\app\Controllers\Pages.php(8): CodeIgniter\Model->__call('getData', Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-18 13:31:27 --> Call to undefined method App\Models\User_RModel::getData
+#0 C:\xampp\htdocs\app\Controllers\Pages.php(8): CodeIgniter\Model->__call('getData', Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-18 13:32:01 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/login', Array, true)
+#1 C:\xampp\htdocs\app\Controllers\User_R.php(12): view('pages/login', Array)
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\User_R->index()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_R))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-18 13:51:19 --> Call to undefined method App\Models\User_RModel::getData
+#0 C:\xampp\htdocs\app\Controllers\Pages.php(8): CodeIgniter\Model->__call('getData', Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-18 13:51:31 --> Call to undefined method App\Models\User_RModel::getData
+#0 C:\xampp\htdocs\app\Controllers\Pages.php(8): CodeIgniter\Model->__call('getData', Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-18 13:52:00 --> Call to undefined method App\Models\User_RModel::getData
+#0 C:\xampp\htdocs\app\Controllers\Pages.php(8): CodeIgniter\Model->__call('getData', Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-18 13:54:04 --> Call to undefined method App\Models\User_RModel::getData
+#0 C:\xampp\htdocs\app\Controllers\Pages.php(8): CodeIgniter\Model->__call('getData', Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-18 13:54:53 --> Call to undefined method App\Models\User_RModel::getData
+#0 C:\xampp\htdocs\app\Controllers\Pages.php(8): CodeIgniter\Model->__call('getData', Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-18 13:55:23 --> Undefined variable: data
+#0 C:\xampp\htdocs\app\Controllers\Pages.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-18 13:56:46 --> Undefined variable: data
+#0 C:\xampp\htdocs\app\Views\pages\home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Pages.php(9): view('pages/home')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-18 14:06:52 --> syntax error, unexpected '}', expecting ';' or ','
+#0 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('templates/login...', Array, true)
+#1 C:\xampp\htdocs\app\Views\pages\home.php(11): view('templates/login...')
+#2 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\xampp\htdocs\app\Controllers\Pages.php(9): view('pages/home')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-18 14:07:55 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('templates/login...', Array, true)
+#1 C:\xampp\htdocs\app\Views\pages\home.php(11): view('templates/login...')
+#2 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\xampp\htdocs\app\Controllers\Pages.php(9): view('pages/home')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-18 14:08:07 --> syntax error, unexpected '{', expecting ':'
+#0 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('templates/login...', Array, true)
+#1 C:\xampp\htdocs\app\Views\pages\home.php(11): view('templates/login...')
+#2 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\xampp\htdocs\app\Controllers\Pages.php(9): view('pages/home')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-18 14:08:20 --> syntax error, unexpected '{', expecting ':'
+#0 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('templates/login...', Array, true)
+#1 C:\xampp\htdocs\app\Views\pages\home.php(11): view('templates/login...')
+#2 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\xampp\htdocs\app\Controllers\Pages.php(9): view('pages/home')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-18 14:09:30 --> syntax error, unexpected '{', expecting ':'
+#0 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('templates/login...', Array, true)
+#1 C:\xampp\htdocs\app\Views\pages\home.php(11): view('templates/login...')
+#2 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\xampp\htdocs\app\Controllers\Pages.php(9): view('pages/home')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-18 14:09:47 --> syntax error, unexpected '"<a class='btn btn-outline-pri' (T_CONSTANT_ENCAPSED_STRING), expecting ';'
+#0 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('templates/login...', Array, true)
+#1 C:\xampp\htdocs\app\Views\pages\home.php(11): view('templates/login...')
+#2 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\xampp\htdocs\app\Controllers\Pages.php(9): view('pages/home')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
