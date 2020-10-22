@@ -43,6 +43,19 @@ After this chnage your site will be up and running. To deploy in subdomain and i
 
 # How to use this code?
 1. Change .env file (environment file) to your database name and password, defaults are host is localhost, database is root, username is NULL and passowrd is NULL.
-2. There are php files a. .\app\Views\templates\bloodunits.php b. .\app\Views\templates\HospitalList.php c. .\app\Views\templates\makereq.php c. .\app\Views\templates\viewreq.php Please change deatails of $servername , $username , $password , $dbname to your Database values. (these files contaion direct connection to mysql server)
+
+2. There are php files
+
+  a. .\app\Views\templates\bloodunits.php 
+  
+  b. .\app\Views\templates\HospitalList.php 
+  
+  c. .\app\Views\templates\makereq.php 
+  
+  d. .\app\Views\templates\viewreq.php 
+  
+Please change deatails of $servername , $username , $password , $dbname to your Database values. (these files contaion direct connection to mysql server)
+
 3. If you have any problems feel free to report here.
+
 4. For XAMPP use DocumentRoot as "C:/xampp/htdocs/public" and Directory as "C:/xampp/htdocs/public".
